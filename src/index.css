@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    
+  }
+
+  h2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    background-color: #cbcbcbc7;
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+
+
