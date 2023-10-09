@@ -1,0 +1,22 @@
+{
+    "name": "My React App",
+    "short_name": "My App",
+    "description": "A React app example",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "pulsify-logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
