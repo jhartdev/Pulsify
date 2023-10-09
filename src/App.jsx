@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import imageLogo from '/src/assets/pulsify-logo.png'
 import ProjectsTab from './components/ProjectsTab';
 import PriorityTaskList from './components/PriorityTaskList';
 import CalendarTab from './components/CalendarTab';
@@ -57,7 +58,7 @@ function App() {
   return (
     <div className="app">
       <div className="left-column">
-        <img className='logo' src="src\assets\pulsify-logo.png" alt="pulsify logo" />
+        <img className='logo' src={imageLogo} alt="pulsify logo" />
         <ul className='active-projects-list'>
           <h4>Active Projects</h4>
           {projectCards.map((projectCard) => (
