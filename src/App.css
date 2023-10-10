@@ -64,6 +64,11 @@
   width: 100%;
 }
 
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
 .add-project-btn {
   margin-top: 20px;
   background-color: #d8e4f8;
@@ -101,6 +106,10 @@
   padding: 6px;
   margin-bottom: 8px;
   font-size: 12px;
+}
+
+.form-group {
+  border: none;
 }
 
 .right-column {
