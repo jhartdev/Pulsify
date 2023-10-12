@@ -79,15 +79,15 @@ const NewProjectForm = ({ handleAddProjectCard }) => {
       <div className="form-group">
         <label htmlFor="deadline">Deadline</label>
         <div className="date-dropdowns">
-          <select value={day} onChange={(e) => setDay(e.target.value)}>
+          <select className='dropdowns' value={day} onChange={(e) => setDay(e.target.value)}>
             <option value="">Day</option>
             {daysArray.map(day => <option key={day} value={day}>{day}</option>)}
           </select>
-          <select value={month} onChange={(e) => setMonth(e.target.value)}>
+          <select className='dropdowns' value={month} onChange={(e) => setMonth(e.target.value)}>
             <option value="">Month</option>
             {monthsArray.map((month, index) => <option key={index + 1} value={index + 1}>{month}</option>)}
           </select>
-          <select value={year} onChange={(e) => setYear(e.target.value)}>
+          <select className='dropdowns' value={year} onChange={(e) => setYear(e.target.value)}>
             <option value="">Year</option>
             {yearsArray.map(year => <option key={year} value={year}>{year}</option>)}
           </select>

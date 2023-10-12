@@ -64,6 +64,13 @@
   width: 100%;
 }
 
+.dropdowns {
+  color: #818181;
+  display: inline;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
 .error-message {
   color: red;
   font-size: 12px;
