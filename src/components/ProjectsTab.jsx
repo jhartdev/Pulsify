@@ -3,7 +3,7 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const ProjectsTab = ({ projectCards, handleDeleteProject, onAddTodo, onDeleteTodo }) => {
-  const pastelColors = ['pastel-blue', 'pastel-pink', 'pastel-green', 'pastel-yellow'];
+  const pastelColors = ['pastel-blue', 'pastel-pink', 'pastel-green', 'sea-green', 'pastel-purple', 'pastel-yellow'];
 
   return (
     <div>

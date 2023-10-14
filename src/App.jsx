@@ -59,16 +59,17 @@ function App() {
     <div className="app">
       <div className="left-column">
         <img className='logo' src={imageLogo} alt="pulsify logo" />
-        <ul className='active-projects-list'>
-          <h4>Active Projects</h4>
+        <h4 className='left-col-title'>Active Projects</h4>
+        <ul className='active-projects-list'>  
           {projectCards.map((projectCard) => (
             <li key={projectCard.id}>
               <div className={projectCard.className}></div> {projectCard.projectName} 
             </li>
           ))}
         </ul>
+        <h4 className='left-col-title'>Add a new project</h4>
         <div className='form-container'>
-          <h4>Add a new project</h4>
+          
           <NewProjectForm handleAddProjectCard={handleAddProjectCard} />
         </div>
       </div>

@@ -37,7 +37,8 @@
 }
 
 .active-projects-list::-webkit-scrollbar {
-  display: none;
+  width: 4px;
+  background: #f1f1f1;
 }
 
 .active-projects-list li {
@@ -46,6 +47,7 @@
   border-radius: 12px;
   padding: 5px;
   font-size: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
   border: solid 0.5px #81818166;
   border-radius: 20px;
@@ -59,16 +61,19 @@
   margin-right: 6px;
 }
 
-.active-projects-list h4 {
-  margin-top: 0;
+.left-col-title {
+  margin-top: 50px;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .dropdowns {
   color: #818181;
+  border-color: #81818145;
   display: inline;
   flex-direction: row;
   margin-bottom: 5px;
+  width: 100%;
 }
 
 .error-message {
@@ -102,17 +107,21 @@
 .new-form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
 .new-form > * {
   width: 100%;
-  border: solid 0.5px #81818166;
+  border: solid 0.5px #81818145;
   border-radius: 20px;
   padding: 6px;
   margin-bottom: 8px;
   font-size: 12px;
+}
+
+#client, #projectName {
+  border: solid 0.5px #81818145;
 }
 
 .form-group {
@@ -125,7 +134,7 @@
   justify-content: center;
   background-color: #f9faf5;
   border-radius: 40px;
-  padding: 40px;
+  padding: 50px 80px;
   margin: 10px;
   overflow-y: auto;
   width: 100%;
@@ -191,10 +200,11 @@
 }
 
 .project-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 25px;
-  min-width: 100%;
+  width: 100%;
   border-radius: 40px;
   padding-bottom: 100px;
 }
@@ -204,7 +214,7 @@
   border: 1px solid #fef8e6;
   border-radius: 30px;
   min-height: 300px;
-  width: 421px;
+  min-width: 32%;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -215,19 +225,27 @@
 }
 
 .pastel-blue {
-  background-color: #637a9e3f;
+  background-color: #9AD9DB;
 }
 
 .pastel-green {
-  background-color: #b5ddb557;
+  background-color: #98D4BB;
+}
+
+.sea-green {
+  background-color: #218B82;
+}
+
+.pastel-purple {
+  background-color: #E5DBD9;
 }
 
 .pastel-pink {
-  background-color: #f1c5eb57;
+  background-color: #EB96AA;
 }
 
 .pastel-yellow {
-  background-color: #d9f27e86;
+  background-color: #d9f27e;
 }
 
 .title-container {
@@ -236,8 +254,8 @@
 
 .client-title {
   display: flex;
-  color: #cbcbc7;
-  font-size: 12px;
+  color: #ffffff;
+  font-size: 16px;
   width: 80px;
   align-items: center;
 }
